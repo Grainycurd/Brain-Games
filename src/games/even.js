@@ -11,7 +11,7 @@ const description = 'Answer "yes" if the number is even, otherwise answer "no".'
 const QuestionAndAnswer = () => {
   const question = getRandomNumber(100);
   const answer = isEvenNumber(question) ? 'yes' : 'no';
-  return [String(question), answer];
+  return [question, answer];
 };
 export default () => {
   playGame(description, QuestionAndAnswer);
