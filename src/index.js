@@ -12,7 +12,7 @@ const playGame = (description, QuestionAndAnswer) => {
   console.log(description);
   for (let counterRound = 0; counterRound < maxRounds; counterRound += 1) {
     const [question, answer] = QuestionAndAnswer();
-    console.log('Question: ', question);
+    console.log('Question:', question);
     const answerUser = readlineSync.question('Your answer: ');
     if (answerUser === answer) {
       console.log('Correct!');
