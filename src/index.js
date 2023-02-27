@@ -14,13 +14,10 @@ const playGame = (description, QuestionAndAnswer) => {
     const [question, answer] = QuestionAndAnswer();
     console.log('Question:', question);
     const answerUser = readlineSync.question('Your answer: ');
-    if (answerUser === answer) {
-      console.log('Correct!');
-    } else {
-      const errorMessage = `'${answerUser}' is wrong answer ;(. Correct answer was '${answer}'. \n Let's try again, ${userName}!'`;
-      console.log(errorMessage);
-    }
+    if (answerUser !== answer) return console.log(`'${answerUser}' is wrong answer ;(. Correct answer was '${answer}'. \n Let's try again, ${userName}!'`);
+    console.log('Correct!');
   }
   console.log(`Congratulations, ${userName}!`);
+  return playGame;
 };
 export default playGame;
