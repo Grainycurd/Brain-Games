@@ -2,7 +2,7 @@ import playGame from '../index.js';
 
 const getRandomNumber = (max) => Math.floor(Math.random() * max);
 
-const description = 'Find the greatest common divisor of given numbers.';
+const description = 'What number is missing in the progression?';
 const QuestionAndAnswer = () => {
   const arr1 = [];
   const isProgression = () => {
