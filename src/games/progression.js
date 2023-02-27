@@ -22,7 +22,7 @@ const QuestionAndAnswer = () => {
   const arr2 = arr1;
   arr2[num1] = '..';
   const question = arr2;
-  return [question.join(), String(answer)];
+  return [question.join(' '), String(answer)];
 };
 
 export default () => {
