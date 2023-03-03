@@ -13,11 +13,11 @@ const prime = (num) => {
   } return true;
 };
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-const QuestionAndAnswer = () => {
+const questionAndAnswer = () => {
   const question = getRandomNumber(100);
   const answer = prime(question) ? 'yes' : 'no';
   return [String(question), answer];
 };
 export default () => {
-  playGame(description, QuestionAndAnswer);
+  playGame(description, questionAndAnswer);
 };
