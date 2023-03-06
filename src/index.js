@@ -6,8 +6,7 @@ export const maxRounds = 3;
 
 const playGame = (description, questionAndAnswer) => {
   console.log('Welcome to the Brain Games!');
-  const getName = () => readlineSync.question('May I have your name? ');
-  const userName = getName();
+  const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   console.log(description);
   for (let counterRound = 0; counterRound < maxRounds; counterRound += 1) {

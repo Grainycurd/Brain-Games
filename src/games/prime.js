@@ -1,6 +1,7 @@
 import playGame from '../index.js';
+import getRandomNumber from '../utils.js';
 
-const getRandomNumber = (max) => Math.floor(Math.random() * max);
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const prime = (num) => {
   let result = 0;
   for (let i = 0; i <= num; i += 1) {
@@ -12,9 +13,8 @@ const prime = (num) => {
     return false;
   } return true;
 };
-const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const questionAndAnswer = () => {
-  const question = getRandomNumber(100);
+  const question = getRandomNumber(1, 100);
   const answer = prime(question) ? 'yes' : 'no';
   return [String(question), answer];
 };
