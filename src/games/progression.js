@@ -20,7 +20,8 @@ const questionAndAnswer = () => {
   const randomIndex = getRandomNumber(0, 9);
 
   const correctAnswer = String(progression[randomIndex]);
-  progression[randomIndex] = '..'; const question = progression.join(' ');
+  progression[randomIndex] = '..';
+  const question = progression.join(' ');
   return [question, correctAnswer];
 };
 export default () => {
