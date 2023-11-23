@@ -2,6 +2,7 @@
 [![Actions Status](https://github.com/Grainycurd/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Grainycurd/frontend-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/993b753ca27c07235cd6/maintainability)](https://codeclimate.com/github/Grainycurd/frontend-project-44/maintainability)
 
+[eng]
 To install the package, you need to:
 1. Clone the repository.
 2. Install npm (use the 'make install' command from the root directory).
@@ -14,6 +15,7 @@ To install the package, you need to:
 4. Finding the greatest common divisor.
 5. Identifying prime numbers.
 
+[rus]
 Для установки пакета необходимо:
   
   1.клонировать репозиторий
