@@ -2,9 +2,7 @@
 [![Actions Status](https://github.com/Grainycurd/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Grainycurd/frontend-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/993b753ca27c07235cd6/maintainability)](https://codeclimate.com/github/Grainycurd/frontend-project-44/maintainability)
 
-Here's the translation:
-
-"To install the package, you need to:
+To install the package, you need to:
 1. Clone the repository.
 2. Install npm (use the 'make install' command from the root directory).
 3. Create a local link (use the 'npm link' command, possibly requiring sudo).
@@ -14,7 +12,7 @@ Here's the translation:
 2. Progression: finding missing numbers in a sequence.
 3. Determining even numbers.
 4. Finding the greatest common divisor.
-5. Identifying prime numbers."
+5. Identifying prime numbers.
 
 Для установки пакета необходимо:
   
